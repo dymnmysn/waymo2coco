@@ -1,0 +1,414 @@
+{
+    "info": {
+        "description": "Waymo Panoptic Dataset in Coco Format",
+        "url": "http://waymo.com",
+        "version": "1.4.2",
+        "year": 2023,
+        "contributor": "https://arxiv.org/pdf/2206.07704",
+        "date_created": "2023-05-03 00:00:00.0"
+    },
+    "licenses": [],
+    "images": [
+        {
+            "file_name": "0.jpg",
+            "height": 1280,
+            "width": 1920,
+            "date_captured": "1550083469645130",
+            "id": 0
+        },
+        {
+            "file_name": "1.jpg",
+            "height": 1280,
+            "width": 1920,
+            "date_captured": "1550083469645130",
+            "id": 1
+        }
+    ],
+    "annotations": [
+        {
+            "segments_info": [
+                {
+                    "id": 7,
+                    "category_id": 17,
+                    "iscrowd": 0,
+                    "bbox": [
+                        713,
+                        341,
+                        945,
+                        201
+                    ],
+                    "area": 12228
+                },
+                {
+                    "id": 9,
+                    "category_id": 15,
+                    "iscrowd": 0,
+                    "bbox": [
+                        748,
+                        0,
+                        1036,
+                        772
+                    ],
+                    "area": 52924
+                },
+                {
+                    "id": 10,
+                    "category_id": 27,
+                    "iscrowd": 0,
+                    "bbox": [
+                        0,
+                        558,
+                        1919,
+                        684
+                    ],
+                    "area": 70016
+                },
+                {
+                    "id": 12,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1298,
+                        440,
+                        278,
+                        336
+                    ],
+                    "area": 67808
+                },
+                {
+                    "id": 13,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1144,
+                        562,
+                        31,
+                        47
+                    ],
+                    "area": 992
+                },
+                {
+                    "id": 14,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1303,
+                        543,
+                        20,
+                        23
+                    ],
+                    "area": 290
+                },
+                {
+                    "id": 15,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1752,
+                        513,
+                        167,
+                        168
+                    ],
+                    "area": 19272
+                }
+            ],
+            "file_name": "0.png",
+            "image_id": 0
+        },
+        {
+            "segments_info": [
+                {
+                    "id": 155,
+                    "category_id": 17,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1031,
+                        440,
+                        45,
+                        64
+                    ],
+                    "area": 2375
+                },
+                {
+                    "id": 156,
+                    "category_id": 15,
+                    "iscrowd": 0,
+                    "bbox": [
+                        976,
+                        0,
+                        91,
+                        761
+                    ],
+                    "area": 14183
+                },
+                {
+                    "id": 158,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        0,
+                        658,
+                        509,
+                        383
+                    ],
+                    "area": 147015
+                },
+                {
+                    "id": 159,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        705,
+                        637,
+                        342,
+                        175
+                    ],
+                    "area": 42207
+                },
+                {
+                    "id": 160,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        432,
+                        653,
+                        234,
+                        125
+                    ],
+                    "area": 21450
+                },
+                {
+                    "id": 161,
+                    "category_id": 2,
+                    "iscrowd": 0,
+                    "bbox": [
+                        342,
+                        663,
+                        127,
+                        69
+                    ],
+                    "area": 5456
+                },
+                {
+                    "id": 162,
+                    "category_id": 27,
+                    "iscrowd": 0,
+                    "bbox": [
+                        1074,
+                        635,
+                        780,
+                        183
+                    ],
+                    "area": 71749
+                }
+            ],
+            "file_name": "1.png",
+            "image_id": 1
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "UNDEFINED",
+            "isthing": 0,
+            "id": 1,
+            "name": "UNDEFINED",
+            "track": 0
+        },
+        {
+            "supercategory": "EGO_VEHICLE",
+            "isthing": 0,
+            "id": 2,
+            "name": "EGO_VEHICLE",
+            "track": 0
+        },
+        {
+            "supercategory": "VEHICLE",
+            "isthing": 1,
+            "id": 3,
+            "name": "CAR",
+            "track": 1
+        },
+        {
+            "supercategory": "VEHICLE",
+            "isthing": 1,
+            "id": 4,
+            "name": "TRUCK",
+            "track": 1
+        },
+        {
+            "supercategory": "VEHICLE",
+            "isthing": 1,
+            "id": 5,
+            "name": "BUS",
+            "track": 1
+        },
+        {
+            "supercategory": "VEHICLE",
+            "isthing": 1,
+            "id": 6,
+            "name": "OTHER_LARGE_VEHICLE",
+            "track": 1
+        },
+        {
+            "supercategory": "SMALL_VEHICLE",
+            "isthing": 0,
+            "id": 7,
+            "name": "BICYCLE",
+            "track": 0
+        },
+        {
+            "supercategory": "SMALL_VEHICLE",
+            "isthing": 0,
+            "id": 8,
+            "name": "MOTORCYCLE",
+            "track": 0
+        },
+        {
+            "supercategory": "VEHICLE",
+            "isthing": 1,
+            "id": 9,
+            "name": "TRAILER",
+            "track": 1
+        },
+        {
+            "supercategory": "PERSON",
+            "isthing": 1,
+            "id": 10,
+            "name": "PEDESTRIAN",
+            "track": 1
+        },
+        {
+            "supercategory": "CYCLIST",
+            "isthing": 1,
+            "id": 11,
+            "name": "CYCLIST",
+            "track": 1
+        },
+        {
+            "supercategory": "CYCLIST",
+            "isthing": 1,
+            "id": 12,
+            "name": "MOTORCYCLIST",
+            "track": 1
+        },
+        {
+            "supercategory": "ANIMAL",
+            "isthing": 0,
+            "id": 13,
+            "name": "BIRD",
+            "track": 0
+        },
+        {
+            "supercategory": "ANIMAL",
+            "isthing": 0,
+            "id": 14,
+            "name": "GROUND_ANIMAL",
+            "track": 0
+        },
+        {
+            "supercategory": "SIGNS",
+            "isthing": 0,
+            "id": 15,
+            "name": "CONSTRUCTION_CONE_POLE",
+            "track": 0
+        },
+        {
+            "supercategory": "SIGNS",
+            "isthing": 0,
+            "id": 16,
+            "name": "POLE",
+            "track": 0
+        },
+        {
+            "supercategory": "PEDESTRIAN_OBJECT",
+            "isthing": 0,
+            "id": 17,
+            "name": "PEDESTRIAN_OBJECT",
+            "track": 0
+        },
+        {
+            "supercategory": "SIGNS",
+            "isthing": 0,
+            "id": 18,
+            "name": "SIGN",
+            "track": 0
+        },
+        {
+            "supercategory": "OUTDOOR",
+            "isthing": 0,
+            "id": 19,
+            "name": "TRAFFIC_LIGHT",
+            "track": 0
+        },
+        {
+            "supercategory": "OUTDOOR",
+            "isthing": 0,
+            "id": 20,
+            "name": "BUILDING",
+            "track": 0
+        },
+        {
+            "supercategory": "GROUND",
+            "isthing": 0,
+            "id": 21,
+            "name": "ROAD",
+            "track": 0
+        },
+        {
+            "supercategory": "SIGNS",
+            "isthing": 0,
+            "id": 22,
+            "name": "LANE_MARKER",
+            "track": 0
+        },
+        {
+            "supercategory": "SIGNS",
+            "isthing": 0,
+            "id": 23,
+            "name": "ROAD_MARKER",
+            "track": 0
+        },
+        {
+            "supercategory": "GROUND",
+            "isthing": 0,
+            "id": 24,
+            "name": "SIDEWALK",
+            "track": 0
+        },
+        {
+            "supercategory": "OUTDOOR",
+            "isthing": 0,
+            "id": 25,
+            "name": "VEGETATION",
+            "track": 0
+        },
+        {
+            "supercategory": "OUTDOOR",
+            "isthing": 0,
+            "id": 26,
+            "name": "SKY",
+            "track": 0
+        },
+        {
+            "supercategory": "GROUND",
+            "isthing": 0,
+            "id": 27,
+            "name": "GROUND",
+            "track": 0
+        },
+        {
+            "supercategory": "DYNAMIC",
+            "isthing": 0,
+            "id": 28,
+            "name": "DYNAMIC",
+            "track": 0
+        },
+        {
+            "supercategory": "STATIC",
+            "isthing": 0,
+            "id": 29,
+            "name": "STATIC",
+            "track": 0
+        }
+    ]
+}
